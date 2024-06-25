@@ -3,7 +3,7 @@ import { View, Text, Button, SafeAreaView, ScrollView } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 
 import { COLORS, icons, SIZES, FONTS, images } from '../../constants';
-import { Nearbyjobs, Popularjobs, ScreenHeaderBtn, Welcome } from '../../components';
+import { gumb, welcome, media } from 'C:\Users\lukak\Za vsak slucaj\vvap\QRcodeapp\components';
 
 const Home = () => {
     const router = useRouter();
