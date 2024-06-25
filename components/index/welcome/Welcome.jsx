@@ -8,9 +8,7 @@ import { useRouter } from 'expo-router';
 
 import { icons, SIZES } from '../../../constants';
 
-import styles from './welcome.style'
-
-const jobTypes = ["Fulltime", "Parttime", "Remote", "Freelance", "Temporary", "Internship", "Contract", "Commission", "Volunteer", "Apprenticeship"]
+import styles from './Welcome.style'
 
 const Welcome = () => {
   const router = useRouter();

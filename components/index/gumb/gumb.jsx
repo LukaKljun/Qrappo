@@ -30,3 +30,5 @@ const gumb = () => {
       </View>
     )
 };
+
+export default Gumb;

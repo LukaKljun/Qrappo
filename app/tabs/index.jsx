@@ -3,7 +3,7 @@ import { View, Text, Button, SafeAreaView, ScrollView } from 'react-native';
 import { Stack, useRouter } from 'expo-router';
 
 import { COLORS, icons, SIZES, FONTS, images } from '../../constants';
-import { gumb, welcome, media } from 'C:\Users\lukak\Za vsak slucaj\vvap\QRcodeapp\components';
+import { Gumb, Welcome, Media } from '../../components/index';
 
 const Home = () => {
     const router = useRouter();
@@ -31,8 +31,8 @@ const Home = () => {
                     }}
                 >
                     <Welcome />
-                    <Popularjobs />
-                    <Nearbyjobs />
+                    <Gumb />
+                    <Media />
                 </View>
             </ScrollView>
         </SafeAreaView>
